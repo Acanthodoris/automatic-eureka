@@ -3,32 +3,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Pop Quiz</title>
 </head>
 
 <body>
     <header>
-
+        <a id="highscore" onclick="viewHighscores()">View Highscores</a>
+        <p id="timer"></p>
     </header>
 
-    <main class="container">
-        <div class="start">
-            <button id="start-btn" class="start-btn btn">Start Quiz</button>
-       </div>
-        <div id="question-conatiner" class="hide">
-            <div id="questions">Question</div>
-            <div id="answer-buttons" class="buttons-haus">
-                <button class="btn">Anwser 1</button>
-                <button class="btn">Anwser 2</button>
-                <button class="btn">Anwser 3</button>
-                <button class="btn">Anwser 4</button>
-            </div>
-        </div>
-    </main>
-    <div id="answer-status">
+    <br>
+    <br>
 
+    <div class="mainBody">
+        <div class="container">
+            <div class="start">
+                <button id="start-btn" class="start-btn btn">Start Quiz</button>
+            </div>
+
+            <br>
+
+            <div id="question-conatiner" class="hide">
+                <div id="questions">Question</div>
+                <div id="answer-buttons" class="buttons-haus">
+                    <button class="btn">Anwser 1</button>
+                    <button class="btn">Anwser 2</button>
+                    <button class="btn">Anwser 3</button>
+                    <button class="btn">Anwser 4</button>
+                </div>
+            </div>
+            <br>
+            <div class="answer-status hide"></div>
+        </div>
+
+        <div id="completedQuiz" class="hide">
+            <h2>All done!</h2>
+            <p id="recentScore"></p>
+            <form>
+                <label for="lname">Enter Intials: </label>
+                <input type="text" id="intials" value="ABC"> 
+                <button type="button" onclick="addHighScore()" value="Submit">Save</button>
+            </form> 
+        </div>
+
+        <div id="Highscores" class="hide">
+            <h2>Highscores</h2>
+            <ul id="scoreList"></ul>
+            <button onclick="resetPage()">Go Back</button>
+            <button onclick="clearHighscores()">Clear Highscores</button>
+        </div>
+
+        <script src="script.js"></script>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

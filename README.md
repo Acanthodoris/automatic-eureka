@@ -1,15 +1,20 @@
 # automatic-eureka
+
+## Description:
 Creating a portfolio to test my HTML, CSS, and Javascript skills.
 
-This project is incomplete, I really struggled getting the button/anwsers to work correctly, and I didn't even start on the highscore chart or time limit.
+## Overview:
+I really struggled getting the button/anwsers to work correctly and struggled with getting the elements to hide/unhide and ended up going through a few different ways of going about it before I foudn one that worked.
 
-Changes made:
+## Screenshot:
+![Screenshot](screenshot.gif)
 
-GitHub: https://github.com/Acanthodoris/automatic-eureka
+### [GitHub](https://github.com/Acanthodoris/automatic-eureka)
 
-GitHub Page: https://acanthodoris.github.io/automatic-eureka/
+### [GitHub Page](https://acanthodoris.github.io/automatic-eureka/)
 
-Screenshot:
-
-Credits:
-https://www.youtube.com/watch?v=riDzcEQbX6k
+# Credits:
+* https://www.youtube.com/watch?v=riDzcEQbX6k
+* https://www.w3schools.com/howto/howto_js_countdown.asp
+* https://www.w3schools.com/jsref/met_win_clearinterval.asp
+* https://www.w3schools.com/jsref/met_loc_reload.asp
