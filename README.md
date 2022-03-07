@@ -1,7 +1,7 @@
 # automatic-eureka
 
 ## Description:
-Creating a portfolio to test my HTML, CSS, and Javascript skills.
+Creating a cat quiz to test my HTML, CSS, and Javascript skills.
 
 ## Overview:
 I really struggled getting the button/anwsers to work correctly and struggled with getting the elements to hide/unhide and ended up going through a few different ways of going about it before I foudn one that worked.
